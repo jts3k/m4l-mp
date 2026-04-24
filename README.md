@@ -4,10 +4,9 @@ A Max for Live and Max patch that runs MediaPipe tracking (hand, face, or pose) 
 
 ## Features
 
-- **Hand tracking** with left/right hand identification
-- **Face tracking** with mesh visualization
-- **Pose tracking** with optional body centering/normalization
+- Hand, face, and pose tracking via MediaPipe
 - Multiple body/hand/face detection (up to 6)
+- Option to center bodies during pose tracking (isolate pose over body location) 
 - Camera selection from available devices
 - Real-time OSC output
 - Visual preview window with tracking overlay
@@ -72,14 +71,6 @@ python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 ```
-
-### Step 4: Open in Max or Ableton Live
-
-**For Max/MSP:**
-- Open `m4l-mp.maxpat`
-
-**For Max For Live (Ableton Live):**
-- Drag `m4l-mp.amxd` onto a MIDI or Audio track
 
 ## Usage
 
